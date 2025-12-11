@@ -6,10 +6,18 @@
 /out-tsc
 /bazel-out
 /angular.json
+
 # Node
 /node_modules
 npm-debug.log
 yarn-error.log
+/tsconfig.app.json
+/tsconfig.spec.json
+/tsconfig.json
+/package-lock.json
+/package.json
+
+
 
 # IDEs and editors
 .idea/

@@ -1,0 +1,10 @@
+<aside class="nav-bar">
+  <h2>{{ menu.title }}</h2>
+  <ul>
+    <li *ngFor="let opt of menu.options">
+      <button class="opt-btn" [class.active]="isActive(opt)" (click)="onSelect(opt)">
+        {{ opt.label }}
+      </button>
+    </li>
+  </ul>
+</aside>

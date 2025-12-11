@@ -1,0 +1,17 @@
+.app-shell {
+  display:flex;
+  min-height:100vh;
+  background:#0f0f0f;
+  color:#eee;
+}
+
+app-interaction-bar {
+  border-right: 1px solid #333;
+}
+app-nav-bar {
+  border-right: 1px solid #333;
+}
+.content {
+  flex:1;
+  padding:32px;
+}

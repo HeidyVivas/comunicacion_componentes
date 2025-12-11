@@ -1,0 +1,15 @@
+<nav class="interaction-bar">
+  <div class="logo">LOGO</div>
+
+  <button [class.active]="activeButton==='home'" (click)="setHomeMenu()">
+    Home
+  </button>
+
+  <button [class.active]="activeButton==='search'" (click)="setSearchMenu()">
+    Search
+  </button>
+
+  <button [class.active]="activeButton==='html'" (click)="setHtmlMenu()">
+    HTML
+  </button>
+</nav>

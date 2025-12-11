@@ -1,0 +1,27 @@
+.interaction-bar {
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  padding:10px;
+  width:160px;
+  background:#111;
+  color:#fff;
+  align-items:flex-start;
+}
+.interaction-bar .logo{
+  font-weight:bold;
+  margin-bottom:8px;
+}
+.interaction-bar button{
+  width:100%;
+  padding:8px;
+  background:transparent;
+  color:#ddd;
+  border:1px solid rgba(255,255,255,0.08);
+  cursor:pointer;
+  text-align:left;
+}
+.interaction-bar button.active{
+  background:#e33;
+  color:#fff;
+}
